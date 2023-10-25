@@ -1,0 +1,146 @@
+/* Set font family for all elements */
+* {
+  font-family: Nunito, sans-serif; /* Use Nunito font or fallback to sans-serif */
+ }
+
+/* Responsive container block */
+.responsive-container-block {
+  min-height: 75px; /* Minimum height of the block */
+  height: fit-content; /* Height adjusts based on content */
+  width: 100%; /* Full width of the container */
+  padding: 10px; /* Padding around the block */
+  display: flex; /* Display as a flex container */
+  flex-wrap: wrap; /* Wrap flex items to the next row */
+  margin: 0 auto; /* Center the block horizontally */
+  justify-content: flex-start; /* Align flex items to the start */
+ }
+
+/* Set text block styles */
+.text-blk {
+  margin-top: 0px; /* Remove top margin */
+  margin-right: 0px; /* Remove right margin */
+  margin-bottom: 0px; /* Remove bottom margin */
+  margin-left: 0px; /* Remove left margin */
+  padding-top: 10px; /* Add 10px padding to top */
+  padding-right: 10px; /* Add 10px padding to right */
+  padding-bottom: 10px; /* Add 10px padding to bottom */
+  padding-left: 10px; /* Add 10px padding to left */
+  line-height: 25px; /* Set line height to 25px */
+ }
+
+/* Container block */
+.responsive-container-block-bigContainer {
+  padding-top: 10px; /* Top padding */
+  padding-right: 30px; /* Right padding */
+  padding-bottom: 10px; /* Bottom padding */
+  padding-left: 30px; /* Left padding */
+  flex-direction: column; /* Column direction */
+  align-items: center; /* Center alignment */
+  justify-content: center; /* Center justification */
+ }
+
+/* Main image styling */
+.mainImg {
+  color: black; /* Text color */
+  width: 55%; /* Image width */
+  height: auto; /* Adjust height automatically */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px 7px; /* Soft shadow */
+  border-top-left-radius: 10px; /* Top left corner radius */
+  border-top-right-radius: 10px; /* Top right corner radius */
+  border-bottom-right-radius: 10px; /* Bottom right corner radius */
+  border-bottom-left-radius: 10px; /* Bottom left corner radius */
+ }
+
+/* Heading text style */
+.text-blk .headingText {
+  font-size: 25px; /* Large font size */
+  font-weight: 700; /* Bold font weight */
+  line-height: 34px; /* Moderate line height */
+  color: rgb(51, 51, 51); /* Dark text color */
+  padding: 0px 10px; /* No top/bottom padding, 10px right/left padding */
+  margin: 0px 0px 10px 0px; /* No top/bottom margin, 10px left/right margin */
+ }
+
+/* Reset padding and margin */
+.allText {
+  padding: 0;
+  margin: 0;
+ 
+  /* Set width and left margin */
+  width: 40%;
+  margin-left: 40px;
+ }
+
+/* Subheading text style */
+.text-blk.subHeadingText {
+  color: rgb(102, 102, 102); /* Grayish color */
+  font-size: 25px; /* Medium font size */
+  line-height: 34px; /* Moderate line height */
+  font-weight: 700; /* Bold font weight */
+  padding-top: 0px; /* No padding at top */
+  padding-right: 10px; /* 10px padding at right */
+  padding-bottom: 0px; /* No padding at bottom */
+  padding-left: 10px; /* 10px padding at left */
+  margin-top: 0px; /* No margin at top */
+  margin-right: 0px; /* No margin at right */
+  margin-bottom: 15px; /* 15px margin at bottom */
+  margin-left: 0px; /* No margin at left */
+ }
+
+/* Text block description */
+.text-blk .description {
+  font-size: 25px; /* Font size */
+  line-height: 34px; /* Line height */
+  color: rgb(102, 102, 102); /* Text color */
+  margin-top: 0px; /* Top margin */
+  margin-right: 0px; /* Right margin */
+  margin-bottom: 50px; /* Bottom margin */
+  margin-left: 0px; /* Left margin */
+  padding-top: 0px; /* Top padding */
+  padding-right: 10px; /* Right padding */
+  padding-bottom: 0px; /* Bottom padding */
+  padding-left: 10px; /* Left padding */
+ }
+
+/* Button styling */
+.explore {
+  font-size: 20px; /* Text size */
+  line-height: 28px; /* Text line height */
+  color: rgb(255, 255, 255); /* Text color */
+  background-color: rgb(244, 152, 146); /* Background color */
+  padding: 10px 50px; /* Padding around text */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+ }
+
+
+
+/* Container block */
+.responsive-container-block.Container {
+  margin-top: 80px; /* Top margin */
+  margin-right: auto; /* Right margin auto */
+  margin-bottom: 50px; /* Bottom margin */
+  margin-left: auto; /* Left margin auto */
+  justify-content: center; /* Center content */
+  align-items: center; /* Center items */
+  max-width: 1320px; /* Max width */
+  padding-top: 10px; /* Top padding */
+  padding-right: 10px; /* Right padding */
+  padding-bottom: 10px; /* Bottom padding */
+  padding-left: 10px; /* Left padding */
+ }
+
+
+
+/* Set margin for aboveText */
+.allText.aboveText {
+  margin: 0 0 0 40px; /* Left margin */
+ }
+
+/* Set bottom text margin */
+.allText.bottomText {
+  margin: 0 40px 0 0; /* Left margin, right margin, top margin, bottom margin */
+ }
+
+
+
